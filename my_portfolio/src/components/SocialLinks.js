@@ -12,7 +12,7 @@ const SocialLinks = () => {
             </>
             ),
             href: 'https://linkedin.com',
-            style: 'rounded-tr-md:bg-blue-800'
+            style: 'rounded-tr-md hover:bg-blue-800',
         },
         {
             id: 2,
@@ -22,6 +22,7 @@ const SocialLinks = () => {
             </>
             ),
             href: 'https://github.com/SamuelOmoding',
+            style: 'hover:bg-gray-900',
         },
         {
             id: 3,
@@ -41,7 +42,7 @@ const SocialLinks = () => {
             </>
             ),
             href: '/MyResume.pdf',
-            style: 'rounded-br-md',
+            style: 'rounded-br-md hover:bg-red-900',
             download: true,
         },
     ];
